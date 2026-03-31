@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int M;
+    int N;
     double score1, score2, sum, avg;
     string stuName;
     ifstream ifs;
@@ -20,9 +20,9 @@ int main()
     }
 
     // TODO: read M from ifs, print "Total M students"
-    ifs >> M;
+    ifs >> N;
 
-    for (int i = 0; i < M; i++)
+    for (int i = 0; i < N; i++)
     {
         // TODO: read stuName, score1, score2 from ifs
         ifs >> stuName >> score1 >> score2;
